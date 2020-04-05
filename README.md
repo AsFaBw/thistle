@@ -30,6 +30,6 @@ Working:
   
 Not working:
   * LEDs :-) 
-![Alt text](PoC/DisteFirstActivity.JPG?raw=true "First operation")
+![Alt text](PoC/DistelFirstActivity.JPG?raw=true "First operation")
 
    
