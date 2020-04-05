@@ -21,5 +21,15 @@ A first version was layouted under hurry, production is nearly finished. Wether 
 FPGA code under development (reset control, pattern generator and some LED stimulus implemented, plenty of stuff to do).
 Bitstream transfer from GreatFET to ICE40 via SPI implemented.
 ![Alt text](PoC/ICE40Config.jpg?raw=true "Config stimulus")
+After receiving the board, soldering of remaing stuff was done and pre-written verilog and host programm tested. Quite happy so far.
+Working:
+  * ICE40 FPGA configuration
+  * SI514 frequency change
+  * SPI read/write access to some frist implemented registers on ICE40  
+  * pattern generator stream from pre-defined FPGA RAM contents
+  
+Not working:
+  * LEDs :-) 
+![Alt text](PoC/DisteFirstActivity.JPG?raw=true "First operation")
 
    
