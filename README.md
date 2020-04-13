@@ -1,7 +1,7 @@
-# Distel
+# Thistle
 A neighbor for doing fault injection for the GreatFET One
 # Name
-The plant distel is a bit spikey, and this is what the Neighbor distel shall be able to produce - some spikes
+The plant thistle is a bit spikey, and this is what the Neighbor thistle shall be able to produce - some spikes
 # Purpose
 Primary purpose of this neighbor is to provide a possibility to do fault injections on low power targets like smaller micros. For that the neighbor provides
 * some fixed volatge regulators
