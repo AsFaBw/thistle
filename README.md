@@ -27,6 +27,7 @@ Working:
   * SI514 frequency change
   * SPI read/write access to some frist implemented registers on ICE40  
   * pattern generator stream from pre-defined FPGA RAM contents
+  * voltage glitching controlling the MAX4619 from ICE40
   
 Not working:
   * LEDs :-) 
