@@ -1,7 +1,7 @@
-# Distel
+# Thistle
 A neighbor for doing fault injection for the GreatFET One
 # Name
-The plant distel is a bit spikey, and this is what the Neighbor distel shall be able to produce - some spikes
+The plant thistle is a bit spikey, and this is what the Neighbor thistle shall be able to produce - some spikes
 # Purpose
 Primary purpose of this neighbor is to provide a possibility to do fault injections on low power targets like smaller micros. For that the neighbor provides
 * some fixed volatge regulators
@@ -27,9 +27,11 @@ Working:
   * SI514 frequency change
   * SPI read/write access to some frist implemented registers on ICE40  
   * pattern generator stream from pre-defined FPGA RAM contents
+  * voltage glitching controlling the MAX4619 from ICE40
   
 Not working:
   * LEDs :-) 
 ![Alt text](PoC/DistelFirstActivity.JPG?raw=true "First operation")
 
-   
+A helping board for a DUT is on the way...
+![Alt text](DUTBoard/DUTBoard.jpg?raw=true "DUT Board")
