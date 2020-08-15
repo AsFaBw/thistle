@@ -27,7 +27,7 @@ Working:
   * SI514 frequency change
   * SPI read/write access to some frist implemented registers on ICE40  
   * pattern generator stream from pre-defined FPGA RAM contents
-  * voltage glitching controlling the MAX4619 from ICE40
+  * voltage glitching by stimulating the MAX4619 analog switch from ICE40
   
 Not working:
   * LEDs :-) 
@@ -35,3 +35,12 @@ Not working:
 
 A helping board for a DUT is on the way...
 ![Alt text](DUTBoard/DUTBoard.jpg?raw=true "DUT Board")
+
+After a hard friday night session... ...I am quite pleased with the results. Software and bitstream is ready to generate, download and to play patterns and to generated a glitched power supply.
+Following picture shows a basic setup with Thistel connected to a DUT board comprising a programming voltage generator and a small micro. THE FLASH PROTECTION ON THAT MICRO IS NOT ENABLED... ...SO NOT HACKED/INVESTIGATED ANYTHING. 
+![Alt text](PoC/BasicOperationSetup.jpg?raw=true "Basic Operation Setup")
+
+Follwing snapshot shows the modelation of a basic read flash programming command and the appliance to the DUT. The actual signals at the DUT are recorded by a logic analyzer (window below). In contrast to the upper modeled pattern, the response of the DUT is visible (0x5A) flash contents.
+The VDD line shown in the logic analyzer window shows a generated glitch. This is just for illustration and is not relevant for reading from the DUT as the flash protection is disabled by config setting in flash contents itself (no protection enabled). 
+![Alt text](PoC/BasicOperation.jpg?raw=true "Basic Operation")
+
